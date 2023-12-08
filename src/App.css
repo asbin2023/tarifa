@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.tarifa-container {
+  max-width: 1000px;
+  margin: 70px auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 800px;
+}
+
+.tarifa-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tarifa-header h1 {
+  color: #333;
+}
+
+.tarifa-section {
+  margin-bottom: 30px;
+  padding: 10px 30px;
+}
+
+.tarifa-section h2 {
+  color: #2a0f39b5;
+}
+
+.tarifa-description {
+  color: #555;
+}
+
+.tarifa-list-item {
+  margin-bottom: 5px;
+}
+
+.tarifa-footer {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.img-div {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgba(70, 24, 143, 0.737);
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 15px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #ececec;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.accordion {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-item-checkbox {
+  display: none;
+}
+
+.accordion-item-label {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #541e73b9;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid #0056b3;
+}
+
+.accordion-item-content {
+  display: none;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.accordion-item-checkbox:checked
+  + .accordion-item-label
+  + .accordion-item-content {
+  display: block;
+}
+
+.about-container img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.photos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photos-heading {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.photos-description {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.photos-carousel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 0.7em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
