@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 function About() {
@@ -61,7 +59,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                {/* Add more FAQ items as needed */}
+
             </div>
         </div>
     );

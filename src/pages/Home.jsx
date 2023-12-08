@@ -1,4 +1,4 @@
-// App.js
+
 
 import React from 'react';
 import '../App.css';
@@ -8,13 +8,13 @@ function App() {
         <div className="tarifa-container">
             <header className="tarifa-header">
                 <h1>Welcome to Tarifa, Spain</h1>
-                
+
             </header>
             <div className='img-div'>
                 <img id='img-home' src="https://i.pinimg.com/originals/76/bd/62/76bd6259ed61e6c8d26d90d829b921be.jpg" alt="" />
             </div>
-  
-            
+
+
             <section className="tarifa-section">
                 <h2>Explore the Beauty of Tarifa</h2>
                 <p className="tarifa-description">

@@ -127,9 +127,7 @@ p {
   background-color: #f8f8f8;
 }
 
-.accordion-item-checkbox:checked
-  + .accordion-item-label
-  + .accordion-item-content {
+.accordion-item-checkbox:checked+.accordion-item-label+.accordion-item-content {
   display: block;
 }
 
@@ -201,4 +199,3 @@ button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
-

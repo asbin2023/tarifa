@@ -4,7 +4,7 @@ function Form() {
   const [state, handleSubmit] = useForm("xeqbykqb");
   if (state.succeeded) {
     return <p>Thank you!</p>;
-    
+
   }
   return (
     <form onSubmit={handleSubmit}>
